@@ -1,5 +1,7 @@
 import math
 
+userInput = int(input("Enter your salary:\n"))
+
 def bracketOne(userSalary):
     taxAmount = userSalary * .10
     result = userSalary - taxAmount
@@ -46,8 +48,6 @@ def bracketSeven(userSalary):
     percentage = amountOver * .37
     result = flatRate + percentage
     print(result)
-
-userInput = int(input("Enter your salary:\n"))
 
 if userInput < 9875:
     bracketOne(userInput)
