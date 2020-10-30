@@ -2,8 +2,8 @@ import math
 
 def bracketOne(userSalary):
     taxAmount = userSalary * .10
-    postTax = userSalary - taxAmount
-    print(postTax)
+    result = userSalary - taxAmount
+    print(result)
 
 def bracketTwo(userSalary):
     flatRate = 987.50                
